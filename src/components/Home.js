@@ -1,11 +1,13 @@
 import styled from "styled-components";
-import Leftside from "./Leftside";
+import Leftside from "../Leftside";
 import Main from "./Main";
-import Rightside from "./Rightside";
+import Rightside from "../Rightside";
+import Header from "./Header";
 
   const Home = (props) => {
   return (
     <Container>
+      <Header />
       <Section>
         <h5>
           <a>Hiring in a hurry? - </a>
